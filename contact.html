@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+
+<html lang="en-US">
+
+ 
+
+<head>
+
+      <title>Contact Alex</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/form.css">
+      <link rel="icon" type="image/gif" href="assets/images/favicon.png" />
+
+</head>
+
+    <Div class="menucontainer">
+        <div class="name"><strong>Alex Ponder</strong></div>
+        
+            <div class="spacebox1"></div>
+            <button onclick="OpenContact()" class="button" style="vertical-align:middle"><span>Contact</span></button>
+            <button onclick="OpenPortfolio()" class="button" style="vertical-align:middle"><span>Portfolio</span></button>
+            <button onclick="OpenAbout()" class="button" style="vertical-align:middle"><span>About</span></button>
+            
+        
+    </Div>
+
+  
+
+<body class="body">
+
+  <div class="MainSection">
+    <div class = "aboutme">Contact</div>
+    <div class="line1"></div>
+    <!-- <div class="contactname"> -->
+      <form action="action_page.php" > <!-- style="border:1px solid #ccc"  -->
+        <div class="container">
+          
+          <hr>
+      
+          <label for="Name"><b>Name:</b></label>
+          <input type="text" placeholder="Enter Name" name="Name" required>
+      
+          <label for="Email"><b>Email:</b></label>
+          <input type="text" placeholder="Enter Email" name="Email" required>
+      
+          <label for="Message"><b>Message</b></label>
+          <input type="text" placeholder="Message" name="Message" required>
+          <div class="clearfix">
+            
+            <button type="submit" class="submitbtn">Submit</button>
+            
+          <!-- </div> -->
+        </div>
+      </form>
+    </div>
+    
+   
+    <!-- <p style = "clear: left; width: 650px; height: 100px;">check 
+    </p> -->
+
+ </div>           
+
+     <div class="sidebar">Connect with Me
+            <div class="connectwithme">
+                <div class="line3">
+                    <a href="https://github.com/abponder" target="_blank" class="test">
+                            <img src="assets/images/img_github.png" alt="Github" >
+                    </a>
+                    <a href="https://www.linkedin.com/in/abp-a1-tops/" target="_blank" class="test">
+                            <img src="assets/images/img_linkedin.png" alt="LinkedIn" >
+                    </a>
+                    <a href="https://stackexchange.com/users/12547052/aponder" target="_blank" class="test">
+                            <img src="assets/images/img_stackoverflow.png" alt="StackOverflow">
+                    </a>
+                </div>
+            </div>
+     
+
+     <td colspan="1">
+            <div id="clock">    
+                <script type="text/javascript">     
+                               // Array of month Names   
+                    var monthArray = new Array("January", "February", "March", "April", "May",
+                               "June", "July", "August", "September",
+                               "October", "November", "December");
+                    var today = new Date();
+                    var todayMonth = today.getMonth();
+                    var todayDate = today.getDate();
+                    var todayYear = today.getFullYear();
+                    document.write(monthArray[todayMonth] + " " + todayDate + ", " + todayYear);
+    
+                    var currentTime = new Date()
+                    var hours = currentTime.getHours()
+                    var minutes = currentTime.getMinutes()
+                    if (minutes < 10) {
+                        minutes = "0" + minutes
+                    }
+                    document.write(" " + hours + ":" + minutes + " ")
+                    if (hours > 11) {
+                        document.write("PM")
+                    } else {
+                        document.write("AM")
+                    }
+                // -->
+                </script>
+
+    </div>
+    
+            <!-- &nbsp; this is a non-breaking space -->
+    
+             </div>
+    
+    </td>
+
+
+                <!-- &nbsp; this is a non-breaking space -->
+
+<script src="assets/js/Script.js"></script>
+
+</body>
+
+<footer class="footer">
+    <p>&#169 copyright 2018 Alex B.Ponder</p>
+    
+    
+</footer>
+ 
+
+ 
+
+ 
+
+</html>
